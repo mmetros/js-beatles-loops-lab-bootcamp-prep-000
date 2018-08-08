@@ -1,5 +1,16 @@
 // add solution here
 
+function theBeatlesPlay(musicians, instruments){
+  var emptyArray = [];
+
+  for(var i = 0; i < musicians.length ; i++){
+    // create a string using the first index of
+    // musicians array and first index of instruments array
+    emptyArray.push(`${musicians[i]} plays ${instruments[i]}`)
+  }
+  return emptyArray
+}
+
 
 function johnLennonFacts(facts){
 // use a while loop
